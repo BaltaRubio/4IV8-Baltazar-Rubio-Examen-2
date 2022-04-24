@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 23 abr. 2022, 10:01:14
+    Author     : radib
+*/
+
+*{
+    margin: 0.25;
+    padding: 0.15%;
+}
+
+body{
+    background-image: url(http://blogs.fad.unam.mx/ccomputo/wp-content/uploads/2016/02/20160205_212541.jpg) ;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    color: white;
+}
+
+#for1{
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+#for2{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#for3{
+    background-color: rgba(0, 0, 0, 0.5);
+}

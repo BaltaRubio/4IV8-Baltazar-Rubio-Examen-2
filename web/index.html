@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Examen</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div class="Formulario" id="for1">
+            <form method="post" name="formulario1" action="registroalumno.jsp">
+                <hr size="5" color="white">
+                <h2>Profesor</h2>
+                <hr size="5" color="white">
+                <label>N° de Empleado</label>
+                <br>
+                <input type="text" name="noempleado" required>
+                <br>
+                <label>Nombre</label>
+                <br>
+                <input type="text" name="nombre" required>
+                <br>
+                <label>Apellido Paterno</label>
+                <br>
+                <input type="text" name="appat" required>
+                <br>
+                <label>Apellido Materno</label>
+                <br>
+                <input type="text" name="apmat" required>
+                <br>
+                <label>Sexo</label>
+                <br>
+                <input type="text" name="sexo" required>
+                <br>
+                <label>Rol</label>
+                <br>
+                <input type="text" name="rol" required>
+                <p>
+                <!-- <input type="submit" value="Siguiente" > 
+                <br> -->
+                <input type="submit" value="Registrar Profesor" >
+                <br>
+                <input type="reset" value="Borrar Registro" > 
+                <p>
+            </form>
+            <a href="consultarprofesor.jsp">Consultar Profesores</a>
+        </div>
+            
+        <div class="Formulario1" id="for2">
+            <form method="post" name="formulario2" action="registromaquina.jsp">
+                <hr size="5" color="white" >
+                <h2>Equipo</h2>
+                <hr size="5" color="white">                
+                <label>ID Maquina</label>
+                <br>
+                <input type="text" name="idmaq" required>
+                <br>
+                <label>ID Monitor</label>
+                <br>
+                <input type="text" name="idmoni" required>
+                <br>
+                <label>Id Accesorio</label>
+                <br>
+                <input type="text" name="idacce" required>
+                <br>
+                <label>ID Configuración</label>
+                <br>
+                <input type="text" name="idconfig" required>
+                <br>
+                <label>Problema</label>
+                <br>
+                <input type="text" name="problem" required>
+                <br>
+                <label>Laboratorio</label>
+                <br>
+                <input type="text" name="lab" required>
+                <p>
+                <!-- <input type="submit" value="Siguiente" > 
+                <br> -->
+                <input type="submit" value="Registrar Equipo" >
+                <br>
+                <input type="reset" value="Borrar Registro" > 
+                <br>
+                <p>
+            </form>
+            <a href="consultarmaquina.jsp">Consultar Maquinas</a>
+
+        </div>
+        
+        <div class="Formulario2" id="for3">
+            <form method="post" name="formulario3" action="registroreporte.jsp">
+                <hr size="5" color="white">
+                <h2>Reporte</h2>
+                <hr size="5" color="white">
+                <label>ID Reporte</label>
+                <br>
+                <input type="text" name="idreport" required>
+                <br>
+                <label>Estado de Maquina</label>
+                <br>
+                <input type="text" name="emaq" required>
+                <br>
+                <label>Asignatura</label>
+                <br>
+                <input type="text" name="asig" required>
+                <br>
+                <label>Grupo</label>
+                <br>
+                <input type="text" name="grup" required>
+                <br>
+                <label>Estado de Reparto</label>
+                <br>
+                <input type="text" name="erepart" required>
+                <br>
+                <p>
+                <input type="submit" value="Registrar Reporte" >
+                <br>
+                <input type="reset" value="Borrar Registro" > 
+                <br> 
+                <p>
+            </form>
+            <a href="consultarreporte.jsp">Consultar Reportes</a>          
+        </div>
+        <script src="js/vali.js"></script>
+    </body>
+</html>
